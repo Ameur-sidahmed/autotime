@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to left, #e2e2e2, #c9d6ff);
+}
+
+nav{
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 80px;
+}
+
+nav a.logo{
+    font-size: 33px;
+    color: #512da8;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav .button {
+    color: #ffffff;
+    background-color:  #512da8;
+    font-size: larger;
+    padding: 8px 20px;
+    border: none;
+    margin-right: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s all;
+    text-decoration: none;
+}
+
+nav .button:hover{
+    background-color: #411d95;
+    color:#d3d3d3;
+}
+
+/**/
+
+.Formulaire {
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    width: 50%;
+    padding: 2% 5%;
+    margin: 1% auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0 , 0.1);
+}
+
+.Button1{
+    color: #ffffff;
+    background-color:  #512da8;
+    font-size: larger;
+    padding: 8px 20px;
+    border: none;
+    margin-right: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s all;
+    text-decoration: none;
+}
+
+.Button1:hover{
+    background-color: #411d95;
+    color:#d3d3d3;
+}
+
+.Formulaire h2{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.Formulaire h2 span{
+    color: #512da8;
+}
+p strong{
+    color: #411d95;
+}
+
+.blue{
+    color: red;
+}

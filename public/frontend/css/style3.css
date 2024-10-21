@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to left, #e2e2e2, #c9d6ff);
+}
+
+nav{
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 80px;
+}
+
+nav a.logo{
+    font-size: 33px;
+    color: #512da8;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav .button{
+    color: #ffffff;
+    font-size: larger;
+    padding: 8px 20px;
+    border: none;
+    margin-right: 14px;
+    cursor: pointer;
+    background-color:  #512da8;
+    border-radius: 10px;
+    transition: 0.2s all;
+    text-decoration: none;
+}
+
+nav .button:hover{
+    background-color: #411d95;
+    color:#d3d3d3;
+}
+
+/**/
+.Historique{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.photo{
+  width: 50%;
+  margin-top: -2%;
+}
+
+.histo-Rdv{
+    margin: 3%;
+    width: 50%;
+}
+
+
+.Rdv-24{
+    margin: 2%;
+    padding: 3%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0 , 0.1);
+    width: 90%;
+}
+
+.Rdv-24 h4 span{
+    color: #512da8;
+}
+
+.Rdv{
+    background-color: #ffffff;
+    margin-top: 6%;
+    margin: 2%;
+    width: 90%;
+    padding: 3%;
+    border-radius: 15px;
+    overflow-y: scroll;
+}
+
+.Rdv ul li h6 span{
+    color: #512da8;
+}
+
+.Rdv ul li h6{
+    padding: 2%;
+}
+
+.Rdv h3{
+    margin: 1%;
+    margin-bottom: 2%;
+    color: #512da8;
+}
+
+.Rdv ul li {
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    padding: 1.5%;
+    margin: 1%;
+    border-radius: 15px;
+    list-style-type: none;
+    box-shadow: 0 10px 30px rgba(0, 0, 0 , 0.1);
+}
+
+.utilisation h2{
+    color: #512da8;
+}
+
